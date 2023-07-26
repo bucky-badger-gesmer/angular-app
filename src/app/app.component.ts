@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
   imports: [HomeComponent],
   template: `
     <main>
-      <header class="block h-16 p-2.5 shadow-md">
+      <header class="sticky top-0 bg-white block h-16 p-2.5 shadow-md">
         <img
           class="brand-logo"
           src="/assets/logo.svg"
