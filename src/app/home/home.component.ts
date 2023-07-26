@@ -26,7 +26,9 @@ import { HousingLocation } from '../housinglocation';
     <section
       class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 mt-12 justify-around"
     >
-      <app-housing-location></app-housing-location>
+      <app-housing-location
+        [housingLocation]="housingLocation"
+      ></app-housing-location>
     </section>
   `,
 })
