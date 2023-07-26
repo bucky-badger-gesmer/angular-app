@@ -40,7 +40,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
         <h2 class="text-[18pt] mb-[15px]">Apply now to live here</h2>
         <form [formGroup]="applyForm" (submit)="submitApplication()">
           <label
-            class="block text-sky-500 font-bold text-uppercase text-[12pt]"
+            class="block text-sky-500 font-bold uppercase text-[12pt]"
             for="first-name"
             >First Name</label
           >
@@ -52,7 +52,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
           />
 
           <label
-            class="block text-sky-500 font-bold text-uppercase text-[12pt]"
+            class="block text-sky-500 font-bold uppercase text-[12pt]"
             for="last-name"
             >Last Name</label
           >
@@ -64,7 +64,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
           />
 
           <label
-            class="block text-sky-500 font-bold text-uppercase text-[12pt]"
+            class="block text-sky-500 font-bold uppercase text-[12pt]"
             for="email"
             >Email</label
           >
